@@ -21,11 +21,15 @@
           fn+F12)
         </p>
         <div id="inputContainer">
-          <!-- Add label, input, and button HERE -->
+          <form id="search-form">
+            <input type="search" name="search" id="search" placeholder="search" aria-label="Enter your search term">
+            <button type="submit">Search</button>
+          </form>
         </div>
 
         <div id="imageContainer" style="max-width: 680px">
           <img
+            id="gif"
             src="#"
             alt="Giphy Selection"
             style="width: 100%; height: auto"
